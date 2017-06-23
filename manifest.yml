@@ -1,0 +1,7 @@
+---
+applications:
+ - name: pghproject
+   random-route: true
+   path: target/pgh.war
+   memory: 512M
+   instances: 1
